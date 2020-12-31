@@ -9,8 +9,8 @@ const RootStack = createStackNavigator();
 const Router = () => {
     return (
         <RootStack.Navigator>
-            <RootStack.Screen name="Home" component={HomeBottomTabsNavigator} />
-            <RootStack.Screen name="StoriesView" component={StoriesView} />
+            <RootStack.Screen name="Home" component={HomeBottomTabsNavigator} options={{ headerShown: false}}/>
+            <RootStack.Screen name="StoriesView" component={StoriesView} options={{ headerShown: false}}/>
         </RootStack.Navigator>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, FlatList, ScrollView, SafeAreaView, Platform } from 'react-native';
+import { FlatList, SafeAreaView } from 'react-native';
 import Post from '../Post'
 import Stories from '../Stories';
 
@@ -74,9 +74,7 @@ const feed = [
 ];
 
 const Feed = () => {
-    function renderItem({item}){
-        
-    }
+    
     return(
         <SafeAreaView>
             <FlatList 
