@@ -78,7 +78,7 @@ const Feed = () => {
         
     }
     return(
-        <SafeAreaView style={{marginTop: Platform.OS=='android' ? 30 : 0}}>
+        <SafeAreaView>
             <FlatList 
                 data={feed}
                 keyExtractor={item =>item.user.name }

@@ -5,7 +5,6 @@ import Footer from './Footer';
 import Header from './Header';
 
 const Post = ({ post}) => {
-    console.log(post)
     return (
         <View style={{ backgroundColor: "#fff", marginBottom: 4, elevation: 2}}>
             <Header user={post.user}/>

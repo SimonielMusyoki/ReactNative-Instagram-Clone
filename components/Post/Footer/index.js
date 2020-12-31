@@ -27,8 +27,7 @@ const Footer = ({ postText, likes, postedAt }) => {
                 <View style={{ flexDirection: 'row',}}>
                     <TouchableOpacity onPress={onLikePressed}>
                         <MaterialIcons name={isLiked ? "favorite" : "favorite-border"} color={ isLiked ? "#F36365": "#4f4f4f"} size={30} style={styles.icon}/>
-                    </TouchableOpacity>
-                    
+                    </TouchableOpacity>                    
                     <Ionicons name="paper-plane-outline" color="#4f4f4f" size={30} style={styles.icon}/>
                     <FontAwesome name="comment-o" color="#4f4f4f" size={30} style={styles.icon}/>
                 </View>
